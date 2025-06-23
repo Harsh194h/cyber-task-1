@@ -1,0 +1,14 @@
+# Nmap 7.97 scan initiated Mon Jun 23 18:32:08 2025 as: nmap -sS -oN scan_results.txt 192.168.1.69
+Nmap scan report for 192.168.1.69
+Host is up (0.0012s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE    SERVICE
+25/tcp   filtered smtp
+110/tcp  filtered pop3
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+445/tcp  open     microsoft-ds
+548/tcp  filtered afp
+2869/tcp open     icslap
+
+# Nmap done at Mon Jun 23 18:32:10 2025 -- 1 IP address (1 host up) scanned in 2.33 seconds
