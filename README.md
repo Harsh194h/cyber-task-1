@@ -22,7 +22,7 @@ This task involves performing a TCP SYN scan on a local device using *Nmap* to d
    ```bash
    nmap -sS 192.168.1.69
    
-   #  Scan Summary
+###  Scan Results
 
 | Port  | State     | Service       |
 |-------|-----------|----------------|
